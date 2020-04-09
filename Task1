@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+       
+       
+    //JAVASCRIPT TAG
+
+       <script>
+     //MY NAME      
+    var myName = "Liadi Ahmed"
+    
+    //ARRAY OF MY COURSES
+    var myCourses = ["HTML", "CSS", "JacaScript", "UX/UI"]
+    
+    //LOOP
+    for (i=0; i<=200; i+=2)
+    {
+      if (myCourses.length % 2 === 0)
+            {document.write(i + "<br/>")}
+    }
+           
+       </script> 
+       
+       
+    </body>
+</html>
