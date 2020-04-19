@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        
+<script>    
+            console.log(`It Works!`);
+//    empty
+    let theValues=new Array();
+            function divisionParam(x) {
+                for (let i=1;i<=x;i++) {
+                    if (i%2===0 && i%3===0 && i%5===0){
+                        theValues[i]="yu-gi-oh";}
+                    else if (i%2===0 && i%3===0) {
+                        theValues[i]="yu-gi";}
+                    else if (i%3===0 && i%5===0) {
+                        theValues[i]="gi-oh";} 
+                    else if (i%2===0 && i%5===0) {
+                        theValues[i]="yu-oh";}
+                    else if (i%2===0){
+                        theValues[i]="yu";}
+                    else if (i%3===0) {
+                        theValues[i]="gi";}
+                    else if (i%5===0) {
+                        theValues[i]="oh";}
+                    else {theValues[i]=i}
+                    }
+                console.log(theValues);
+
+                return theValues
+                }
+    
+            divisionParam(100);
+            divisionParam(10);
+            
+</script>     
+    </body>
+</html>
